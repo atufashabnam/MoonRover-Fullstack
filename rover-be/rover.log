@@ -1,0 +1,21 @@
+2023-06-20T23:35:54.767+02:00  INFO 92591 --- [main] c.moonrover.rover.RoverApplicationTests  : Starting RoverApplicationTests using Java 20.0.1 with PID 92591 (started by salt-dev in /Users/salt-dev/Downloads/rover 2)
+2023-06-20T23:35:54.771+02:00  INFO 92591 --- [main] c.moonrover.rover.RoverApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-06-20T23:35:55.255+02:00  INFO 92591 --- [main] c.moonrover.rover.RoverApplicationTests  : Started RoverApplicationTests in 0.621 seconds (process running for 1.056)
+2023-06-20T23:37:28.615+02:00  INFO 92726 --- [main] com.moonrover.rover.RoverApplication     : Starting RoverApplication using Java 20.0.1 with PID 92726 (/Users/salt-dev/Downloads/rover 2/target/classes started by salt-dev in /Users/salt-dev/Downloads/rover 2)
+2023-06-20T23:37:28.617+02:00  INFO 92726 --- [main] com.moonrover.rover.RoverApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-06-20T23:37:28.928+02:00  INFO 92726 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-20T23:37:28.933+02:00  INFO 92726 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-20T23:37:28.933+02:00  INFO 92726 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-20T23:37:28.960+02:00  INFO 92726 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-20T23:37:28.960+02:00  INFO 92726 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 328 ms
+2023-06-20T23:37:29.092+02:00  INFO 92726 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-20T23:37:29.096+02:00  INFO 92726 --- [main] com.moonrover.rover.RoverApplication     : Started RoverApplication in 0.612 seconds (process running for 5.883)
+2023-06-20T23:49:22.230+02:00  INFO 92726 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-20T23:49:22.231+02:00  INFO 92726 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-20T23:49:22.233+02:00  INFO 92726 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-20T23:49:22.295+02:00  INFO 92726 --- [http-nio-8080-exec-1] c.m.r.controller.MoonRoverController     : Received request to place the MoonRover at co-ordinates 4 and 3.
+2023-06-20T23:49:22.296+02:00  INFO 92726 --- [http-nio-8080-exec-1] c.m.rover.service.MoonRoverOperations    : Successfully placed MoonRover on the Tabletop.
+2023-06-20T23:50:09.266+02:00  INFO 92726 --- [http-nio-8080-exec-3] c.m.r.controller.MoonRoverController     : Received request to move the MoonRover.
+2023-06-20T23:50:59.013+02:00  INFO 92726 --- [http-nio-8080-exec-4] c.m.r.controller.MoonRoverController     : Received request to turn the MoonRover.
+2023-06-20T23:51:06.150+02:00  INFO 92726 --- [http-nio-8080-exec-5] c.m.r.controller.MoonRoverController     : Received request to turn the MoonRover.
+2023-06-20T23:51:33.034+02:00  INFO 92726 --- [http-nio-8080-exec-6] c.m.r.controller.MoonRoverController     : Received request to generate the report for the MoonRover.
